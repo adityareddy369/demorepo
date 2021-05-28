@@ -2,6 +2,8 @@ on:
   push:
     branches:
       - main
+env:
+   deploy_env: Build
 
 jobs:
   hello_world_job:
